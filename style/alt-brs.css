@@ -1,0 +1,38 @@
+#map {
+    position: fixed;
+    width:50%;
+    height: 100%;
+}
+#features {
+    width: 50%;
+    margin-left: 50%;
+    font-family: sans-serif;
+    overflow-y: scroll;
+    background-color: #fafafa;
+}
+#logo-banner {
+    padding-left: 8px;
+    position: fixed;
+    right: 5px;
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 4px;
+}
+#brs-logo {
+    width: 50%;
+    float: right;
+}
+section {
+    padding:  25px 50px;
+    line-height: 25px;
+    border-bottom: 1px solid #ddd;
+    opacity: 0.25;
+    font-size: 13px;
+    min-height: 200px;
+}
+section.active {
+    opacity: 1;
+}
+section:last-child {
+    border-bottom: none;
+    margin-bottom: 200px;
+}
